@@ -1,5 +1,9 @@
+.html{
+  overflow-x: hidden;
+}
+
 .bg-theme{
-  background-color: #1287a5;
+  background-color: teal;
 }
 .cart-icon{
   font-size: 1.5rem;
@@ -9,6 +13,13 @@
 }
 .hero-backgrund{
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-backgrund{
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
